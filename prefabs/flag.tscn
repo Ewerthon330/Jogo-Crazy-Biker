@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=3 uid="uid://cj035f2nxicb1"]
+
+[ext_resource type="Texture2D" uid="uid://ukm2kxjjp1w3" path="res://TilMap/flags/pngegg (1).png" id="1_jrmbd"]
+
+[node name="Flag" type="Node2D"]
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="."]
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground"]
+
+[node name="TextureRect" type="TextureRect" parent="ParallaxBackground/ParallaxLayer"]
+offset_right = 318.0
+offset_bottom = 98.0
+texture = ExtResource("1_jrmbd")
+expand_mode = 1
